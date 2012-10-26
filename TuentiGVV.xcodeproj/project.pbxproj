@@ -21,6 +21,7 @@
 		94D791F515B1B410003319E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D791D315B1B40F003319E2 /* Foundation.framework */; };
 		94D791FD15B1B410003319E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94D791FB15B1B410003319E2 /* InfoPlist.strings */; };
 		94D7920015B1B410003319E2 /* TuentiGVVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D791FF15B1B410003319E2 /* TuentiGVVTests.m */; };
+		94D7922615B1C8CB003319E2 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D7922515B1C8CB003319E2 /* Transaction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +39,24 @@
 		94D791D115B1B40F003319E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		94D791D315B1B40F003319E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94D791D515B1B40F003319E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		94D791D915B1B40F003319E2 /* TuentiGVV-Info.plist */ = {isa = PBXFileReference; path = "TuentiGVV-Info.plist"; sourceTree = "<group>"; };
+		94D791D915B1B40F003319E2 /* TuentiGVV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TuentiGVV-Info.plist"; sourceTree = "<group>"; };
 		94D791DB15B1B40F003319E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94D791DD15B1B40F003319E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		94D791DF15B1B40F003319E2 /* TuentiGVV-Prefix.pch */ = {isa = PBXFileReference; path = "TuentiGVV-Prefix.pch"; sourceTree = "<group>"; };
-		94D791E015B1B40F003319E2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		94D791DF15B1B40F003319E2 /* TuentiGVV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TuentiGVV-Prefix.pch"; sourceTree = "<group>"; };
+		94D791E015B1B40F003319E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94D791E115B1B40F003319E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		94D791E415B1B40F003319E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		94D791E715B1B40F003319E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		94D791E915B1B40F003319E2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		94D791E915B1B40F003319E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		94D791EA15B1B40F003319E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		94D791F115B1B410003319E2 /* TuentiGVVTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuentiGVVTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D791F215B1B410003319E2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		94D791FA15B1B410003319E2 /* TuentiGVVTests-Info.plist */ = {isa = PBXFileReference; path = "TuentiGVVTests-Info.plist"; sourceTree = "<group>"; };
+		94D791FA15B1B410003319E2 /* TuentiGVVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TuentiGVVTests-Info.plist"; sourceTree = "<group>"; };
 		94D791FC15B1B410003319E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		94D791FE15B1B410003319E2 /* TuentiGVVTests.h */ = {isa = PBXFileReference; path = TuentiGVVTests.h; sourceTree = "<group>"; };
+		94D791FE15B1B410003319E2 /* TuentiGVVTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TuentiGVVTests.h; sourceTree = "<group>"; };
 		94D791FF15B1B410003319E2 /* TuentiGVVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuentiGVVTests.m; sourceTree = "<group>"; };
+		94D7922415B1C8CB003319E2 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		94D7922515B1C8CB003319E2 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				94D791E915B1B40F003319E2 /* ViewController.h */,
 				94D791EA15B1B40F003319E2 /* ViewController.m */,
 				94D791D815B1B40F003319E2 /* Supporting Files */,
+				94D7922415B1C8CB003319E2 /* Transaction.h */,
+				94D7922515B1C8CB003319E2 /* Transaction.m */,
 			);
 			path = TuentiGVV;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				94D791DE15B1B40F003319E2 /* main.m in Sources */,
 				94D791E215B1B40F003319E2 /* AppDelegate.m in Sources */,
 				94D791EB15B1B40F003319E2 /* ViewController.m in Sources */,
+				94D7922615B1C8CB003319E2 /* Transaction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
